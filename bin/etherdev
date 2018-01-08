@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require "thor"
+require "ether_dev"
+
+EtherDev::CLI.start(ARGV)
